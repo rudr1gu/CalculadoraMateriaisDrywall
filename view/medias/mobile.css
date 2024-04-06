@@ -1,0 +1,28 @@
+nav{
+    font-size: 0.9em;
+}
+
+.tab-pane{
+    width: 90vw;
+    min-height: 70vh;
+    font-size: .95;
+}
+
+input{
+    width: 55%;
+}
+.btnSend{
+    width: 45%;
+}
+
+table{
+    margin-top: none;
+}
+
+#nav-home-tab, #nav-profile-tab, #nav-contact-tab, #nav-disabled-tab{
+   padding: 4px;
+}
+
+h1{
+    font-size: 0.9em;
+}

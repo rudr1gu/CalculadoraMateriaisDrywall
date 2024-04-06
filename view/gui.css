@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: var(--fontP);
+}
+
+:root{
+    --cor1:#C1D9A9;
+    --cor2:#98D936;
+    --cor3:#87BF34;
+    --cor4:#76A62E;
+    --cor5:#F2F2F2;
+    --fontP: "Work Sans", sans-serif;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+}
+
+.navBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    background-color: var(--cor4);
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.315) ;
+}
+
+#nav-home-tab, #nav-profile-tab, #nav-contact-tab, #nav-disabled-tab{
+  color: var(--cor5);
+  font-weight: bolder;
+}
+
+#nav-home-tab.active, #nav-profile-tab.active, #nav-contact-tab.active, #nav-disabled-tab.active {
+    color: var(--cor4);
+}
+
+.tab-pane{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    min-height: 50vh;
+    max-height: 50vh;
+    overflow: auto;
+    border: 1px solid rgba(0, 0, 0, 0.342);
+    border-radius: 10px;
+    box-shadow:2px 2px 7px rgba(0, 0, 0, 0.315);
+    padding: 5px;
+    text-align: center;
+}
+
+#tbForro, #tbParede, #tbCoParede{
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.cent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+div.formulario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    width: 80% ;
+    margin: 15px;
+    overflow: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349);
+    border-radius: 5px;
+    padding: 2px ;
+    
+}
+
+input, .btnSend{
+    text-align: center;
+    border: none;
+    background: none;
+    padding: 2px;
+}
+
+.btnSend{
+    background-color: var(--cor4);
+    font-weight: bolder;
+    color: var(--cor5);
+    text-shadow: 1px 1px 3px solid black;
+    width: 30%;
+}
+input{
+    width: 70%;
+}
+
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+}
+
+thead{
+    background-color: var(--cor4);
+}
+
+tbody>tr:hover{
+    background-color: var(--cor1);
+    cursor: pointer;
+
+}
+
