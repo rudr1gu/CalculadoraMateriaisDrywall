@@ -88,7 +88,7 @@ div.formulario{
     justify-content: space-between;
     align-items: center;
     border: 1px solid rgba(0, 0, 0, 0.301);
-    width: 80% ;
+    width: 60% ;
     margin: 15px;
     overflow: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349);
@@ -127,9 +127,17 @@ thead{
     background-color: var(--cor4);
 }
 
+tr{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.596);
+}
+
 tbody>tr:hover{
     background-color: var(--cor1);
     cursor: pointer;
 
+}
+
+.textoHome{
+    text-align: justify;
 }
 
