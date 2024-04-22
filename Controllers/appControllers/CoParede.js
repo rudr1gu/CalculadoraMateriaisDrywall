@@ -1,17 +1,17 @@
-import { materiaisParede } from "../../model/materialParede.mjs";
+import { materiaisCParede } from "../../model/materialCP.js";
 
-class Parede{
-    calcParede(){
-        const tbParede = document.getElementById("tbParede");
-        const btn = document.getElementById("btnEnviar1");
+class CoParede{
+    calcCoParede(){
+        const tbParede = document.getElementById("tbCoParede");
+        const btn = document.getElementById("btnEnviar2");
 
         btn.addEventListener("click", ()=>{
-            let qntd = document.getElementById("qntd-M2").value;
-            const res = document.getElementById("resParede");
+            let qntd = document.getElementById("qntd_M2").value;
+            const res = document.getElementById("resCoParede");
             tbParede.style.display = "flex";
             res.innerHTML = "";
 
-            materiaisParede.forEach(item =>{
+            materiaisCParede.forEach(item =>{
                 let tr = document.createElement("tr");
 
                 tr.innerHTML = `<td>${item.items}</td>
@@ -21,7 +21,9 @@ class Parede{
                 res.appendChild(tr);
             })
         })
+
     }
+
 }
 
-export { Parede };
+export {CoParede};
