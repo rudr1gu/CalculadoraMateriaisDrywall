@@ -1,6 +1,6 @@
-import { Forro } from "./appControllers/Forro.mjs";
-import { Parede } from "./appControllers/Parede.mjs";
-import { CoParede } from "./appControllers/CoParede.mjs";
+import { Forro } from "./appControllers/Forro.js";
+import { Parede } from "./appControllers/Parede.js";
+import { CoParede } from "./appControllers/CoParede.js";
 
 const forro = new Forro();
 const parede = new Parede();
