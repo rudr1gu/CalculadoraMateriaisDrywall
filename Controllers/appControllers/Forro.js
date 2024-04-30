@@ -1,4 +1,4 @@
-import { materiaisForro } from "../../model/materialForro.mjs";
+import { materiaisForro } from "../../model/materialForro.js";
 
 class Forro{
     calcForro(){

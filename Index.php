@@ -15,6 +15,7 @@
      <!-- icones -->
      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
      <link rel="stylesheet" href="./view/medias/mobile.css" media="(max-width: 450px)">
+     <link rel="manifest" href="manifest.json">
 </head>
 <body>
     <header>

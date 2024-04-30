@@ -1,6 +1,9 @@
 nav{
     font-size: 0.9em;
 }
+div.formulario{
+    width: 90%;
+}
 
 .tab-pane{
     width: 90vw;
